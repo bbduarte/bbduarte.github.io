@@ -31,6 +31,7 @@ table {
 
   th {
     font-weight: bold;
+    color: #fff;
   }
 }
 
@@ -165,7 +166,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-title {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
   }
 
   .card-body {
@@ -561,11 +562,11 @@ footer.sticky-bottom {
     }
 
     a {
-      color: var(--global-text-color);
+      color: var(--global-theme-color);
       text-decoration: none;
 
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-text-color);
       }
     }
 
